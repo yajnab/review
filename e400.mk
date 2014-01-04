@@ -17,6 +17,7 @@ PRODUCT_AAPT_CONFIG := normal mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := ldpi
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ramdisk/fstab.e0:root/fstab.e0 \
     $(LOCAL_PATH)/ramdisk/init.e0.rc:root/init.e0.rc \
     $(LOCAL_PATH)/ramdisk/ueventd.e0.rc:root/ueventd.e0.rc \
     $(LOCAL_PATH)/ramdisk/init.e0.usb.rc:root/init.e0.usb.rc
@@ -26,7 +27,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/e0_keypad.kl:system/usr/keylayout/e0_keypad.kl \
     $(LOCAL_PATH)/configs/touch_mcs8000.idc:system/usr/idc/touch_mcs8000.idc \
     $(LOCAL_PATH)/configs/touch_mcs8000.kl:system/usr/keylayout/touch_mcs8000.idc \
-    $(LOCAL_PATH)/configs/vold.fstab:system/etc/vold.fstab \
     $(LOCAL_PATH)/configs/AudioFilter.csv:system/etc/AudioFilter.csv
 
 
