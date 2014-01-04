@@ -52,7 +52,7 @@ TARGET_QCOM_HDMI_OUT := false
 TARGET_FORCE_CPU_UPLOAD := true
 BOARD_USES_QCOM_LIBS := true
 BOARD_USE_QCOM_PMEM := true
-BOARD_EGL_CFG := device/lge/e400/egl.cfg
+BOARD_EGL_CFG := device/lge/e400/configs/egl.cfg
 TARGET_GRALLOC_USES_ASHMEM := true
 
 BOARD_HAVE_BLUETOOTH := true

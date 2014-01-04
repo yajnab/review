@@ -17,9 +17,9 @@ PRODUCT_AAPT_CONFIG := normal mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := ldpi
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.e0.rc:root/init.e0.rc \
-    $(LOCAL_PATH)/ueventd.e0.rc:root/ueventd.e0.rc \
-    $(LOCAL_PATH)/init.e0.usb.rc:root/init.e0.usb.rc
+    $(LOCAL_PATH)/ramdisk/init.e0.rc:root/init.e0.rc \
+    $(LOCAL_PATH)/ramdisk/ueventd.e0.rc:root/ueventd.e0.rc \
+    $(LOCAL_PATH)/ramdisk/init.e0.usb.rc:root/init.e0.usb.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
